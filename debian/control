@@ -1,0 +1,17 @@
+Source: xserver-xorg-input-ft5x
+Section: x11
+Priority: optional
+Maintainer: Rafal <fatwildcat@gmail.com>
+Build-Depends: debhelper (>= 9), autotools-dev, pkg-config, xserver-xorg-dev
+Standards-Version: 3.9.6
+Homepage: http://github.com/rafaello7/xserver-xorg-input-ft5x
+
+Package: xserver-xorg-input-ft5x
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Xorg touchscreen driver for ft5x
+ Xorg multitouch touchscreen driver for ft5x chip.
+ .
+ Working with Ainol Novo 7 Aurora (having Allwinner A10 chip) and
+ with Cube U30GT-H, having Rockchip RK3066 chip on board.
+
